@@ -36,16 +36,17 @@ mind-the-gap is a tool for on-boarding custom excel workbooks onto the platform.
 - Rolling sales -> what should we call this field?
 - Commission amount
 - Payout
+- Percent to goal (if goal is available)
 
 ## Questions
 - Will the commission rate table always be provided when users upload their data?
 - How will customers load their data regularly into our calc engine? Upload, APIs?
 - What data will they load for regular processing? Which columns?
-- Do we need a unique ID for sales rep as a required entity? Could have duplicate sales rep names
+- Do we need a unique ID for sales rep as a required entity? Could have duplicate sales rep names - e-mail, mobile, id as unique identifier
 - Can deductions be specified in the revenue column as a negative value?
-- Will commission rate always be a percentage value even if not specified?
-- What kind of lookups can be specified in the sheet other than commission rate?
-- Should we try to build a sales hierarchy from the presented data to be used during regular uploads?
+- Will commission rate always be a percentage value even if not specified? - can we get the cell type from the spreadsheet? 
+- What kind of lookups can be specified in the sheet other than commission rate? Goal amounts, exchange rates
+- Should we try to build a sales hierarchy from the presented data to be used during regular uploads? Yes
 
 ## Logic
 - For each worksheet in the workbook
